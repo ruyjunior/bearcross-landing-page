@@ -17,15 +17,15 @@ const HomePage: React.FC = () => {
         <Benefits />
         <Section
           id="pricing"
-          title="Pricing"
-          description="Fair prices that fit your budget"
+          title="Valores"
+          description="Preços justos que cabem no seu bolso"
         >
           <Pricing />
         </Section>
         <Section
-          id="payments"
-          title="Payment"
-          description="We accept various forms of payment"
+          id="pagamentos"
+          title="Pagamentos"
+          description="Aceitamos várias formas de pagamento"
         >
           <Payments />
         </Section>

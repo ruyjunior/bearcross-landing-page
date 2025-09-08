@@ -3,7 +3,7 @@ export const siteDetails = {
     siteUrl: 'https://bearcross-landing-page.vercel.app/',
     metadata: {
         title: 'Bear Cross',
-        description: 'Best Training Center in Salvador BA - Dique Tororó',
+        description: 'O melhor centro de treinamento de CrossFit em Salvador BA - Dique Tororó',
     },
     language: 'pt-br',
     locale: 'pt-BR',

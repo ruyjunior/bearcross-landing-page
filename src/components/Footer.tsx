@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 
-
 import { siteDetails } from '@/data/siteDetails';
 import { footerDetails } from '@/data/footer';
 import { getPlatformIconByName } from '@/utils';
@@ -32,7 +31,7 @@ const Footer: React.FC = () => {
                     </p>
                 </div>
                 <div>
-                    <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+                    <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
                     <ul className="text-foreground-accent">
                         {footerDetails.quickLinks.map(link => (
                             <li key={link.text} className="mb-2">
@@ -42,11 +41,11 @@ const Footer: React.FC = () => {
                     </ul>
                 </div>
                 <div>
-                    <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+                    <h4 className="text-lg font-semibold mb-4">Contato</h4>
 
                     {footerDetails.email && <a href={`mailto:${footerDetails.email}`} className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
 
-                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
+                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Telefone: {footerDetails.telephone}</a>}
 
                     {footerDetails.socials && (
                         <div className="mt-5 flex items-center gap-5 flex-wrap">
@@ -68,7 +67,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
             <div className="mt-8 md:text-center text-foreground-accent px-6 flex flex-col items-center">
-                <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. All rights reserved.</p>
+                <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. Todos os direitos reservados.</p>
                 <div className="flex items-center mt-10">
                     <Image
                         src="/images/logo_dev.png"
@@ -79,11 +78,11 @@ const Footer: React.FC = () => {
                     />
                 </div>
                 <p className="text-sm mt-2 text-gray-500">
-                    Developed by <a href="https://autoric.com.br" target="_blank" rel="noopener noreferrer">Autoric Automation</a>
+                    Desenvolvido por <a href="https://autoric.com.br" target="_blank" rel="noopener noreferrer">Autoric Automation</a>
                 </p>
             </div>
         </footer>
     );
 };
 
-export default Footer;
+export default Footer;  

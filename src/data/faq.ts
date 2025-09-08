@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Are the workouts at ${siteDetails.siteName} suitable for beginners?`,
-        answer: 'Yes! Our workouts are adaptable for all levels, from beginners to advanced athletes. You will progress at your own pace with professional guidance.',
+        question: `Os treinos na ${siteDetails.siteName} são indicados para iniciantes?`,
+        answer: 'Sim! Nossos treinos são adaptáveis para todos os níveis, desde iniciantes até atletas avançados. Você irá evoluir no seu próprio ritmo com orientação profissional.',
     },
     {
-        question: `Do I need my own equipment to train?`,
-        answer: 'It is not mandatory. We provide the necessary equipment for training, but we recommend having your own items, such as gloves and grips, for better comfort and hygiene.',
+        question: `Preciso ter meu próprio equipamento para treinar?`,
+        answer: 'Não é obrigatório. Fornecemos os equipamentos necessários para o treino, mas recomendamos ter itens próprios, como luvas e grips, para maior conforto e higiene.',
     },
     {
-        question: 'Does CrossFit help with weight loss and fitness conditioning?',
-        answer: `Absolutely! CrossFit workouts combine high-intensity exercises that accelerate fat burning, improve overall fitness, and increase muscle strength.`,
+        question: 'O CrossFit ajuda na perda de peso e condicionamento físico?',
+        answer: `Com certeza! Os treinos de CrossFit combinam exercícios de alta intensidade que aceleram a queima de gordura, melhoram o condicionamento físico geral e aumentam a força muscular.`,
     },
     {
-        question: 'Can I take a trial class before signing up?',
-        answer: 'Yes! We offer trial classes so you can experience our facilities, methodology, and coaches before starting your CrossFit journey.',
+        question: 'Posso fazer uma aula experimental antes de me matricular?',
+        answer: 'Sim! Oferecemos aulas experimentais para que você possa conhecer nossa estrutura, metodologia e professores antes de iniciar sua jornada no CrossFit.',
     },
     {
-        question: 'What are the benefits of CrossFit beyond physical fitness?',
-        answer: 'In addition to improving physical fitness, CrossFit promotes discipline, focus, teamwork, self-confidence, and mental well-being.',
+        question: 'Quais os benefícios do CrossFit além do condicionamento físico?',
+        answer: 'Além de melhorar o condicionamento físico, o CrossFit promove disciplina, foco, trabalho em equipe, autoconfiança e bem-estar.'
     }
-];
+]

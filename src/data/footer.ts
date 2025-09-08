@@ -7,14 +7,14 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Come train with us! Discover how to achieve your goals in a healthy and fun way at our training center.",
+    subheading: "Venha treinar com a gente! Descubra como alcançar seus objetivos de forma saudável e divertida no nosso centro de treinamento.",
     quickLinks: [
-        { text: "Features", url: "#features" },
-        { text: "Prices", url: "#pricing" },
-        { text: "Payments", url: "#payments" },
-        { text: "Team", url: "#team" },
+        { text: "Funcionalidades", url: "#features" },
+        { text: "Preços", url: "#pricing" },
+        { text: "Pagamentos", url: "#payments" },
+        { text: "Equipe", url: "#team" },
         { text: "FAQ", url: "#faq" },
-        { text: "Location", url: "#location" },
+        { text: "Localização", url: "#location" },
         ],
     email: 'bearcrossct2024@gmail.com',
     telephone: '+55 71 9 9985-7902',
@@ -26,6 +26,7 @@ export const footerDetails: {
         // youtube: 'https://youtube.com',
         //linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com/bearcross.ct',
-    }
+        instagram: 'https://www.instagram.com/bearcrossct/',
+    },
+
 }
