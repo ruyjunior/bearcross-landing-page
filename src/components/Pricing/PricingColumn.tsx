@@ -23,7 +23,7 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
                     <span className={clsx({ "text-secondary": highlight })}>
                         {typeof price === 'number' ? `R$${price}` : price}
                     </span>
-                    {typeof price === 'number' && <span className="text-lg font-normal text-gray-600">/mo</span>}
+                    {typeof price === 'number' && <span className="text-lg font-normal text-gray-600">/mês</span>}
                 </p>
             </div>
             <div className="p-6 mt-1">

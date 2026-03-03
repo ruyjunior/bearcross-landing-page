@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                             alt="Logo da empresa"
                             width={80}
                             height={80}
-                            className="rounded-full"
+                            className="rounded-full w-auto h-auto object-cover cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg "
                         />
                         <span
                             className="text-xl font-semibold text-foreground cursor-pointer"
@@ -71,14 +71,14 @@ const Footer: React.FC = () => {
                 <div className="flex items-center mt-10">
                     <Image
                         src="/images/logo_dev.png"
-                        width={40}
+                        width={100}
                         height={40}
                         alt={`Logo da ${siteDetails.siteName}`}
-                        className="mr-2 rounded-md"
+                        className="mr-2 rounded-md bg-secundary p-1 shadow-md w-auto h-auto cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg"
                     />
                 </div>
                 <p className="text-sm mt-2 text-gray-500">
-                    Desenvolvido por <a href="https://autoric.com.br" target="_blank" rel="noopener noreferrer">Autoric Automation</a>
+                    Desenvolvido por <a href="https://autoric.com.br" target="_blank" rel="noopener noreferrer">Autoric Automação e Sistemas</a>
                 </p>
             </div>
         </footer>

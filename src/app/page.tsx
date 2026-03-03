@@ -5,7 +5,7 @@ import Benefits from "@/components/Benefits/Benefits";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import Location from "@/components/Location";
-import Team from "@/components/Team";
+//import Team from "@/components/Team";
 import Payments from "@/components/Payments";
 //import NewsCarousel from "@/components/News";
 
@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
         <Benefits />
         <Section
           id="pricing"
-          title="Valores"
+          title="Melhor Custo benefício"
           description="Preços justos que cabem no seu bolso"
         >
           <Pricing />
@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
         >
           <Payments />
         </Section>
-        <Team />
+        {/*<Team /> */}
         <FAQ />
         <Location />
       </Container>

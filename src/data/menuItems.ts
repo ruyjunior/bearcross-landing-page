@@ -4,7 +4,7 @@ export const menuItems: IMenuItem[] = [
     { text: "Funcionalidades", url: "#features" },
     { text: "Preços", url: "#pricing" },
     { text: "Pagamentos", url: "#payments" },
-    { text: "Equipe", url: "#team" },
+    //{ text: "Equipe", url: "#team" },
     { text: "FAQ", url: "#faq" },
     { text: "Localização", url: "#location" },
 ];
